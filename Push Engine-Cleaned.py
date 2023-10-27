@@ -12,8 +12,8 @@ import psycopg2
 try:
     connection = psycopg2.connect(
         dbname='prod',
-        user='sushila_verma',
-        password='Sushila_verma_pw1!',
+        user='User_name',
+        password='Password',
         host='allendigital-prod.cze9tl5zevtk.ap-south-1.redshift.amazonaws.com',
         port='5439'
     )
